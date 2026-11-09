@@ -1,0 +1,26 @@
+import type { Metadata, Viewport } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "First Impression | Ladies Burkhas & Abayas",
+  description:
+    "First Impression: elegant ladies burkhas and abayas. Browse the collection and order easily on WhatsApp.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#14110f",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="font-sans">{children}</body>
+    </html>
+  );
+}
