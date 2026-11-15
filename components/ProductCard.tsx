@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import type { Product } from "@/lib/products";
 import { waLink } from "@/lib/whatsapp";
@@ -29,11 +30,12 @@ export default function ProductCard({ product }: { product: Product }) {
         }}
       >
         {product.image && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
+          <Image
             src={product.image}
             alt={product.name}
-            className="absolute inset-0 h-full w-full object-cover"
+            fill
+            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            className="object-cover"
           />
         )}
         <span className="relative m-3 rounded-full bg-cream/90 px-3 py-1 text-xs font-medium text-ink">
