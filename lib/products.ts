@@ -17,6 +17,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "fi-001",
+    image: "/products/burkha.jpeg",
     name: "Classic Black Burkha",
     category: "Burkha",
     occasion: "Daily Wear",
@@ -26,6 +27,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-002",
+    image: "/products/abaya-mix.jpeg",
     name: "Butterfly Abaya",
     category: "Abaya",
     occasion: "Daily Wear",
@@ -36,6 +38,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-003",
+    image: "/products/abayaa.jpeg",
     name: "Royal Front Open Abaya",
     category: "Abaya",
     occasion: "Party Wear",
@@ -46,6 +49,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-004",
+    image: "/products/full-burkha.jpeg",
     name: "Embroidered Burkha",
     category: "Burkha",
     occasion: "Party Wear",
@@ -56,6 +60,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-005",
+    image: "/products/abaya-black.jpeg",
     name: "Nida Daily Abaya",
     category: "Abaya",
     occasion: "Daily Wear",
@@ -65,6 +70,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-006",
+    image: "/products/full-burkha-b.jpeg",
     name: "Premium Bridal Burkha",
     category: "Burkha",
     occasion: "Party Wear",
@@ -75,6 +81,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-007",
+    image: "/products/hijab.jpeg",
     name: "Georgette Hijab",
     category: "Hijab",
     price: 1200,
@@ -83,6 +90,7 @@ export const products: Product[] = [
   },
   {
     id: "fi-008",
+    image: "/products/hijabb.jpeg",
     name: "Chiffon Hijab Set",
     category: "Hijab",
     price: 1800,
